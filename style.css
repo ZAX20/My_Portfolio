@@ -282,7 +282,7 @@ nav {
 .contactSection {
     background-image: url(Assets/contact-background.png);
     background-size: contain;
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
