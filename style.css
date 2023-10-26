@@ -102,10 +102,11 @@ li {
   background-color: #fff;
   width: 1156px;
   height: 496px;
-  margin: 150px;
-  margin-left: 370px;
-  border-radius: 10px;
   display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
 }
 
 .imageDiv,
