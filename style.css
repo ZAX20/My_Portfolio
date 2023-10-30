@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #e0e0e0;
   padding: 0;
   margin: 0;
 }
@@ -283,9 +283,9 @@ nav {
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  max-width: fit-content;
-  width: 768px;
-  height: 840px;
+  /* max-width: fit-content; */
+  /* width: 768px; */
+  /* height: 840px; */
   border-radius: 100px 0 0 0 / 100px;
   background-color: #6070ff;
   margin-top: 20px;
@@ -360,7 +360,7 @@ nav {
 
 @media (min-width: 768px) and (max-width: 2560px) {
   body {
-    background-color: white; 
+    background-color: rgb(240, 240, 240); 
   }
   
   header {
@@ -421,4 +421,74 @@ nav {
     list-style-type: none;
     margin-left: 128px;
   }
+
+  .cards {
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 1156px;
+  }
+
+  .snapshot-photo {
+    width: 544px;
+    height: 448px;
+  }
+
+  .imageDiv, .works-details {
+    flex: 1;
+  }
+
+  .aboutmeSection {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .about-myself {
+    width: 40%;
+  }
+
+  .aboutme-list {
+    width: 60%;
+  }
+
+  .about-myself h2 {
+    margin-top: 30px;
+  }
+
+  .aboutmeSection ul {
+    margin-left: 0;
+  }
+
+  .programming-language {
+    display: flex;
+  }
+
+  .programming-language li {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .contactSection {
+    background-image: url(Assets/contact\ form\ background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 920px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs input {
+    width: 447px;
+  }
+
+
 }
