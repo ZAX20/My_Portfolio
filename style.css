@@ -28,6 +28,17 @@ header {
   text-decoration: none;
 }
 
+.desktop-tag {
+  display: none;
+  gap: 8px;
+  margin-right: 95px;
+}
+
+.desktop-tag span {
+  gap: 10px;
+  padding: 10px 12px;
+}
+
 nav {
   padding-right: 32px;
 }
@@ -490,5 +501,16 @@ nav {
     width: 447px;
   }
 
+  .desktop-tag {
+    display: block;
+  }
+
+  .mobile-tag {
+    display: none;
+  }
+
+  .my-logo {
+    margin-left: 104px;
+  }
 
 }
