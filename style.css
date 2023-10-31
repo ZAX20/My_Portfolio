@@ -400,7 +400,7 @@ nav {
     gap: 12px;
     margin-top: 289px;
   }
-  
+
   .introduce {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -443,7 +443,7 @@ nav {
     height: 448px;
   }
 
-  .imageDiv, 
+  .imageDiv ,
   .works-details {
     flex: 1;
   }
