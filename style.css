@@ -294,9 +294,6 @@ nav {
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  /* max-width: fit-content; */
-  /* width: 768px; */
-  /* height: 840px; */
   border-radius: 100px 0 0 0 / 100px;
   background-color: #6070ff;
   margin-top: 20px;
@@ -371,7 +368,7 @@ nav {
 
 @media (min-width: 768px) and (max-width: 2560px) {
   body {
-    background-color: rgb(240, 240, 240); 
+    background-color: #e6e6e6; 
   }
   
   header {
