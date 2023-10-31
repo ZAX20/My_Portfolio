@@ -368,9 +368,9 @@ nav {
 
 @media (min-width: 768px) and (max-width: 2560px) {
   body {
-    background-color: #e6e6e6; 
+    background-color: #e6e6e6;
   }
-  
+
   header {
     padding-top: 16px;
     display: flex;
@@ -378,7 +378,7 @@ nav {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     background-color: #fff;
   }
-  
+
   .firstpageSection {
     background-image: url(Assets/Header\ bg.png);
     background-size: cover;
@@ -443,7 +443,8 @@ nav {
     height: 448px;
   }
 
-  .imageDiv, .works-details {
+  .imageDiv, 
+  .works-details {
     flex: 1;
   }
 
@@ -509,5 +510,4 @@ nav {
   .my-logo {
     margin-left: 104px;
   }
-
 }
