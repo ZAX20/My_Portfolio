@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #e0e0e0;
   padding: 0;
   margin: 0;
 }
@@ -28,6 +28,152 @@ header {
   text-decoration: none;
 }
 
+.humbergurBtn {
+  border: 0;
+  background-color: #fff;
+  padding-right: 30px;
+}
+
+/* OverlayMenu */
+
+.overlayRemoveBtn {
+  border: 0;
+  color: #fff;
+  background-color: #6070ff;
+  padding: 0;
+}
+
+.overlayRemoveBtn i {
+  width: 14px;
+  height: 14px;
+  margin-left: 285px;
+}
+
+.overlayMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  transition: all 1s ease-in-out;
+}
+
+.overlayContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 12px;
+  gap: 8px;
+}
+
+.overlayContainer span {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+/* OverlayMenu */
+
+/* Cards overlay */
+
+.card-Div {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: #e0e0e0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-ov {
+  width: 80%;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+
+.header-ov {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tonic-cd {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.cardOvRemoveBtn {
+  border: 0;
+  background-color: #fff;
+  padding: 0;
+  color: #9b9b9b;
+}
+
+.imageDiv {
+  margin-top: 5px;
+}
+
+.cards-content p {
+  color: #344563;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.see-live , .see-source {
+  width: 136px;
+  height: 46px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  color: #396df2;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.buttons-ov {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* Cards overlay */
+
+.desktop-tag {
+  display: none;
+  gap: 8px;
+  margin-right: 95px;
+}
+
+.desktop-tag span {
+  gap: 10px;
+  padding: 10px 12px;
+}
+
 nav {
   padding-right: 32px;
 }
@@ -39,8 +185,8 @@ nav {
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  width: 375px;
-  height: 609px;
+  width: 100%;
+  height: 100%;
 }
 
 .introduce {
@@ -85,7 +231,6 @@ nav {
 
 .works {
   display: grid;
-  margin-top: 150px;
   gap: 50px;
   padding-left: 16px;
   padding-right: 16px;
@@ -99,6 +244,7 @@ nav {
   border-radius: 16px;
   border: solid #e6e6e6 1px;
   background-color: #fff;
+  margin-top: 100px;
 }
 
 .tonic {
@@ -283,9 +429,6 @@ nav {
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  max-width: fit-content;
-  width: 768px;
-  height: 840px;
   border-radius: 100px 0 0 0 / 100px;
   background-color: #6070ff;
   margin-top: 20px;
@@ -356,4 +499,150 @@ nav {
   color: #fff;
   cursor: pointer;
   background-color: #6070ff;
+}
+
+@media (min-width: 768px) and (max-width: 2560px) {
+  body {
+    background-color: #e6e6e6;
+  }
+
+  header {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+  }
+
+  .firstpageSection {
+    background-image: url(Assets/Header\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    width: 100%;
+    height: 970px;
+    border: 1px;
+    border-radius: 0 0 0 15%;
+    background-color: #fff;
+  }
+
+  .hero {
+    /* width: 920px;
+    height: 268px; */
+    margin-left: 260px;
+    gap: 12px;
+    margin-top: 289px;
+  }
+
+  .introduce {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    width: 920px;
+    color: #091e42;
+    margin-bottom: 15px;
+  }
+
+  .greeting {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #344563;
+    margin-top: 40px;
+  }
+
+  .mediaIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    list-style-type: none;
+    margin-left: 128px;
+  }
+
+  .cards {
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 1156px;
+  }
+
+  .snapshot-photo {
+    width: 544px;
+    height: 448px;
+  }
+
+  .imageDiv,
+  .works-details {
+    flex: 1;
+  }
+
+  .aboutmeSection {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .about-myself {
+    width: 40%;
+  }
+
+  .aboutme-list {
+    width: 60%;
+  }
+
+  .about-myself h2 {
+    margin-top: 30px;
+  }
+
+  .aboutmeSection ul {
+    margin-left: 0;
+  }
+
+  .programming-language {
+    display: flex;
+  }
+
+  .programming-language li {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .contactSection {
+    background-image: url(Assets/contact\ form\ background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 920px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs input {
+    width: 447px;
+  }
+
+  .desktop-tag {
+    display: block;
+  }
+
+  .humbergurBtn {
+    display: none;
+  }
+
+  .my-logo {
+    margin-left: 104px;
+  }
 }
