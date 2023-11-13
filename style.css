@@ -28,6 +28,141 @@ header {
   text-decoration: none;
 }
 
+.humbergurBtn {
+  border: 0;
+  background-color: #fff;
+  padding-right: 30px;
+}
+
+/* OverlayMenu */
+
+.overlayRemoveBtn {
+  border: 0;
+  color: #fff;
+  background-color: #6070ff;
+  padding: 0;
+}
+
+.overlayRemoveBtn i {
+  width: 14px;
+  height: 14px;
+  margin-left: 285px;
+}
+
+.overlayMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  transition: all 1s ease-in-out;
+}
+
+.overlayContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 12px;
+  gap: 8px;
+}
+
+.overlayContainer span {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+/* OverlayMenu */
+
+/* Cards overlay */
+
+.card-Div {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: #e0e0e0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-ov {
+  width: 80%;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+
+.header-ov {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tonic-cd {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.cardOvRemoveBtn {
+  border: 0;
+  background-color: #fff;
+  padding: 0;
+  color: #9b9b9b;
+}
+
+.imageDiv {
+  margin-top: 5px;
+}
+
+.cards-content p {
+  color: #344563;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.see-live , .see-source {
+  width: 136px;
+  height: 46px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  color: #396df2;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  margin-top: 12px;
+  gap: 10px;
+}
+
+.buttons-ov {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+/* Cards overlay */
+
 .desktop-tag {
   display: none;
   gap: 8px;
@@ -50,8 +185,8 @@ nav {
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  width: 375px;
-  height: 609px;
+  width: 100%;
+  height: 100%;
 }
 
 .introduce {
@@ -96,7 +231,6 @@ nav {
 
 .works {
   display: grid;
-  margin-top: 150px;
   gap: 50px;
   padding-left: 16px;
   padding-right: 16px;
@@ -110,6 +244,7 @@ nav {
   border-radius: 16px;
   border: solid #e6e6e6 1px;
   background-color: #fff;
+  margin-top: 100px;
 }
 
 .tonic {
@@ -503,7 +638,7 @@ nav {
     display: block;
   }
 
-  .mobile-tag {
+  .humbergurBtn {
     display: none;
   }
 
